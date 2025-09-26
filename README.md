@@ -1,12 +1,44 @@
-# React + Vite
+# Portfolio XP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un portafolio web interactivo con la apariencia y experiencia de usuario de Windows XP, construido con React y Vite.
 
-Currently, two official plugins are available:
+## Características principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Escritorio con íconos clásicos de Windows XP
+- Ventanas arrastrables y redimensionables para cada sección (Sobre mí, Proyectos, Contacto)
+- Barra de tareas y menú inicio funcionales
+- Diseño responsive y fiel a la estética XP
+- Código modular y fácil de mantener
 
-## Expanding the ESLint configuration
+## Estructura del proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/components/` — Componentes principales (Escritorio, Iconos, Ventanas, Barra de tareas, Menú inicio)
+- `src/hooks/useDraggable.js` — Hook para arrastrar ventanas
+- `src/assets/` — Recursos gráficos
+- `public/` — Archivos públicos
+
+## Instalación y uso
+
+1. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+2. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+3. Abre [http://localhost:5173](http://localhost:5173) en tu navegador.
+
+## Personalización
+
+- Edita los íconos, textos y enlaces en `src/App.jsx` para adaptar el portafolio a tu perfil.
+- Puedes agregar más ventanas o secciones siguiendo la estructura de los componentes.
+
+## Créditos
+
+- Inspirado en la interfaz de Windows XP
+- Íconos de [win98icons.alexmeub.com](https://win98icons.alexmeub.com/)
+
+---
+
+Desarrollado con [React](https://react.dev/) + [Vite](https://vitejs.dev/)
